@@ -1,0 +1,17 @@
+{
+  "name": "borozdov-hush",
+  "private": true,
+  "description": "A sunlit wellness retreat on warm paper: rounded bold headlines, huggable pills, one sunbeam yellow card and an orange dot for what you tick.",
+  "license": "MIT",
+  "scripts": {
+    "fonts": "python3 scripts/embed-fonts.py",
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
